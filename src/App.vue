@@ -108,7 +108,6 @@
                         International Conference (Reviewed)
                     </h3>
                     <ul class="list-disc ml-8">
-                        <li>TypeScript (LA)</li>
                         <li>
                             Ryogo Ito, Mitsuhiro Uchida, and Suguru Saito.
                             Decision of Line Structure beyond Junctions Using
