@@ -1,14 +1,34 @@
 <script setup>
+    import GithubButton from "vue-github-button";
 </script>
 
 <template>
-    <head> </head>
+    <head>
+        <title>nashiusagi</title>
+    </head>
     <body>
         <h1><a href="https://nashiusagi.github.io">nashiusagi.github.io</a></h1>
         <div>Hello there! I'm NashiUsagi!</div>
+        <a
+            href="https://twitter.com/NashiUsaBoy?ref_src=twsrc%5Etfw"
+            class="twi-btn btn"
+            style="display: inline-block"
+            target="_blank"
+        >
+            <font-awesome-icon :icon="{ prefix: 'fab', iconName: 'twitter' }" />
+            Follow @NashiUsaBoy
+        </a>
+        <github-button
+            href="https://github.com/nashiusagi"
+            data-size="large"
+            aria-label="Follow @nashiusagi on GitHub"
+            >Follow @nashiusagi
+        </github-button>
         <br />
         <div>
-            Handle: 梨兎 / nashiusagi / nashiusaboy<br />
+            Handle: 梨兎 / nashiusagi / nashiusaboy
+
+            <br />
             Real Name: Ryogo Ito<br />
             Old Account: @Ryogo-san<br />
         </div>
@@ -16,9 +36,12 @@
         <h2>Education</h2>
         <ul>
             <li>
+                2023 - : Adways.inc
+            </li>
+            <li>
                 2021 - 2023: Tokyo Institute of Technology, Dept. of Computer
                 Science.<br />
-                Enrolled in Master Course of Engineering.<br />
+                Master of Engineering, Artificial Intelligence.<br />
                 Saito Laboratory.
             </li>
             <li>
@@ -96,6 +119,16 @@
                 情報処理学会第85回全国大会, 2023.
             </li>
         </ul>
+        <h4>Journal</h4>
+        <ul>
+        <li>TBD</li>
+            <!--<li>
+                Dingkun Yan, Ryogo Ito, Ryo Moriai, and Suguru Saito.
+                Two-step Training: Adjustable Sketch Colorization via Reference Image and Text Tag. Computer Graphics Forum.
+                TBD.
+            </li>
+            -->
+        </ul>
     </body>
     <footer></footer>
 </template>
@@ -107,5 +140,41 @@
         -moz-osx-font-smoothing: grayscale;
         color: #2c3e50;
         margin-top: 60px;
+    }
+
+    .twi-btn {
+        color: #fff;
+        background: #55acee;
+    }
+
+    .twi-btn:hover {
+        color: #fff;
+        background: #55aceea9;
+    }
+
+    .btn,
+    a.btn {
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 1;
+        position: relative;
+        display: inline-block;
+        margin-bottom: 18px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 10px;
+        padding-right: 10px;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+        text-align: center;
+        vertical-align: middle;
+        text-decoration: none;
+        letter-spacing: 0.1em;
+        border-radius: 3px;
     }
 </style>
