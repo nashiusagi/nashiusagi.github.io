@@ -60,12 +60,12 @@
                 <GlassCard>
                     <h2 class="text-2xl font-bold">Programming Skills</h2>
                     <h3 class="text-xl font-bold">【★★★】 Love</h3>
-                    <ul class="list-disc ml-12">
+                    <ul class="list-disc ml-12 mb-4">
                         <li>Python (LA)</li>
                         <li>Ubuntu (OS)</li>
                     </ul>
                     <h3 class="text-xl font-bold">【★★☆】 Daily</h3>
-                    <ul class="list-disc ml-12">
+                    <ul class="list-disc ml-12 mb-4">
                         <li>Java (LA)</li>
                         <li>PHP (LA)</li>
                         <li>JavaScript (LA)</li>
@@ -78,12 +78,12 @@
                         <li>Windows (OS)</li>
                     </ul>
                     <h3 class="text-xl font-bold">【★☆☆】Sometimes</h3>
-                    <ul class="list-disc ml-12">
+                    <ul class="list-disc ml-12 mb-4">
                         <li>C/C++ (LA)</li>
                         <li>Shell Script (LA)</li>
                     </ul>
                     <h3 class="text-xl font-bold">【☆☆☆】Studying</h3>
-                    <ul class="list-disc ml-12">
+                    <ul class="list-disc ml-12 mb-4">
                         <li>TypeScript (LA)</li>
                         <li>Vim Script (LA)</li>
                         <li>Rust (LA)</li>
@@ -98,7 +98,7 @@
                         <h3 class="text-xl font-bold">
                             International Conference (Reviewed)
                         </h3>
-                        <ul class="list-disc ml-8">
+                        <ul class="list-disc ml-8 mb-4">
                             <li>
                                 Ryogo Ito, Mitsuhiro Uchida, and Suguru Saito.
                                 Decision of Line Structure beyond Junctions
@@ -109,7 +109,7 @@
                         <h3 class="text-xl font-bold">
                             Domestic Conference (Reviewed)
                         </h3>
-                        <ul class="list-disc ml-8">
+                        <ul class="list-disc ml-8 mb-4">
                             <li>
                                 伊藤 諒悟, 齋藤 豪, 森合 遼.
                                 疑似相対深度推定によるイラストへの重なりを考慮した差し込み.
@@ -119,7 +119,7 @@
                         <h3 class="text-xl font-bold">
                             Domestic Conference (UnReviewed)
                         </h3>
-                        <ul class="list-disc ml-8">
+                        <ul class="list-disc ml-8 mb-4">
                             <li>
                                 伊藤 諒悟, 齋藤 豪, 内田 光洋.
                                 U-NetベースのCNNを用いた結節点における線分接続判定.
@@ -138,12 +138,10 @@
                             </li>
                         </ul>
                         <h3 class="text-xl font-bold">Journal Paper</h3>
-                        <ul class="list-disc ml-8">
-                            <li>TBD</li>
-                            <!--<li>
-                Dingkun Yan, Ryogo Ito, Ryo Moriai, and Suguru Saito.
-                Two-step Training: Adjustable Sketch Colorization via Reference Image and Text Tag. Computer Graphics Forum.  TBD.  </li>
-            -->
+                        <ul class="list-disc ml-8 mb-4">
+                            <li>
+                                Dingkun Yan, Ryogo Ito, Ryo Moriai, and Suguru Saito.  Two-step Training: Adjustable Sketch Colorization via Reference Image and Text Tag. Computer Graphics Forum.  TBD.  
+                            </li>
                         </ul>
                     </div>
                 </GlassCard>
