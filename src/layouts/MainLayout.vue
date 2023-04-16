@@ -1,5 +1,4 @@
 <script setup>
-    import BubblesBackground from "@/components/BubblesBackground.vue";
 </script>
 <template>
     <div
@@ -8,6 +7,5 @@
         <div class="w-full overflow-hidden">
             <slot />
         </div>
-        <BubblesBackground />
     </div>
 </template>
