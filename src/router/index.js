@@ -7,6 +7,11 @@ const routes = [
         name: "MainPage",
         component: MainPage,
     },
+    {
+        path: "/interest",
+        name: "InterestingPage",
+        component: ()=>import('@/pages/InterestingPage.vue'),
+    },
 ];
 
 const router = createRouter({
