@@ -67,26 +67,30 @@
                     <h3 class="text-xl font-bold">【★★☆】 Daily</h3>
                     <ul class="list-disc ml-12 mb-4">
                         <li>Java (LA)</li>
+                        <li>Scala (LA)</li>
+                        <li>Playframework (FW)</li>
                         <li>PHP (LA)</li>
                         <li>JavaScript (LA)</li>
-                        <li>PyTorch (FW)</li>
-                        <li>Tensorflow (FW)</li>
+                        <li>TypeScript (LA)</li>
                         <li>Laravel (FW)</li>
-                        <li>React (FW)</li>
                         <li>Vue3 (FW)</li>
-                        <li>GNU/Linux Debian (OS)</li>
+                        <li>MacOS (OS)</li>
                         <li>Windows (OS)</li>
                     </ul>
                     <h3 class="text-xl font-bold">【★☆☆】Sometimes</h3>
                     <ul class="list-disc ml-12 mb-4">
+                        <li>PyTorch (FW)</li>
+                        <li>Tensorflow (FW)</li>
+                        <li>React (FW)</li>
                         <li>C/C++ (LA)</li>
+                        <li>GNU/Linux Debian (OS)</li>
                         <li>Shell Script (LA)</li>
                     </ul>
                     <h3 class="text-xl font-bold">【☆☆☆】Studying</h3>
                     <ul class="list-disc ml-12 mb-4">
-                        <li>TypeScript (LA)</li>
                         <li>Vim Script (LA)</li>
                         <li>Rust (LA)</li>
+                        <li>Golang (LA)</li>
                         <li>Ruby (LA)</li>
                         <li>actix-web (FW)</li>
                     </ul>
