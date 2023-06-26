@@ -8,7 +8,7 @@
 <template>
     <MainLayout>
             <h1 class="text-4xl font-bold mb-6">
-                <a href="https://nashiusagi.github.io">nashiusagi.github.io</a>
+                <a href="https://nashiusagi.github.io">NashiUsa Web</a>
             </h1>
             <div class="my-2">Hello there! I'm NashiUsagi!</div>
             <div class="text-gray-900 subpixel-antialiased">
