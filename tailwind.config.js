@@ -4,6 +4,7 @@ module.exports = {
     theme: {
         fontFamily: {
             sans: ["Avenir", "Helvetica", "Arial", "sans-serif"],
+            zenKurenaido: ["Zen Kurenaido", "sans-serif"],
         },
         extend: {},
     },
