@@ -65,6 +65,7 @@
                 <ul class="list-disc ml-12 mb-4">
                     <li>Python (LA)</li>
                     <li>Ubuntu (OS)</li>
+                    <li>Vue3 (FW)</li>
                 </ul>
                 <h3 class="text-xl font-bold">【★★☆】 Daily</h3>
                 <ul class="list-disc ml-12 mb-4">
@@ -75,7 +76,6 @@
                     <li>JavaScript (LA)</li>
                     <li>TypeScript (LA)</li>
                     <li>Laravel (FW)</li>
-                    <li>Vue3 (FW)</li>
                     <li>MacOS (OS)</li>
                     <li>Windows (OS)</li>
                 </ul>
