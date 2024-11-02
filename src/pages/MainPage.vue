@@ -3,6 +3,7 @@ import GithubButton from "vue-github-button";
 import TwitterButton from "@/components/TwitterButton.vue";
 import GlassCard from "@/components/molecules/GlassCard.vue";
 import MainLayout from "@/layouts/MainLayout.vue";
+import ProfileCard from "@/components/organisms/ProfileCard.vue";
 import HistoryCard from "@/components/organisms/HistoryCard.vue";
 </script>
 
@@ -15,30 +16,7 @@ import HistoryCard from "@/components/organisms/HistoryCard.vue";
     </div>
     <div class="my-2">Hello there! I'm NashiUsagi!</div>
     <div class="text-gray-900 subpixel-antialiased">
-      <GlassCard>
-        <h2 class="text-2xl font-bold">Profile</h2>
-        Social Medias <br />
-      
-        <TwitterButton
-          username="NashiUsaBoy"
-          link="https://twitter.com/NashiUsaBoy?ref_src=twsrc%5Etfw"
-        />
-        <github-button
-          href="https://github.com/nashiusagi"
-          data-size="large"
-          aria-label="Follow @nashiusagi on GitHub"
-          >Follow @nashiusagi
-        </github-button>
-        <br />
-        <div>
-          Handle: 梨兎 / nashiusagi / nashiusaboy
- 
-          <br />
-          Real Name: Ryogo Ito / 伊藤諒悟<br />
-          Old Account: @Ryogo-san<br />
-        </div>
-      </GlassCard>
-    
+      <ProfileCard />
       <HistoryCard />
     
       <GlassCard>
