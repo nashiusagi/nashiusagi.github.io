@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import GlassCard from '@/components/molecules/GlassCard.vue';
+import GlassCard from "@/components/molecules/GlassCard.vue";
 import GithubButton from "vue-github-button";
 import TwitterButton from "@/components/molecules/TwitterButton.vue";
 </script>
