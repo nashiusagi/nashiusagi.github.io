@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
+    "format": "biome format ./src",
+    "lint": "biome lint ./src",
     "deploy": "gh-pages -d docs"
   },
   "dependencies": {
@@ -23,12 +24,9 @@
   },
   "devDependencies": {
     "@babel/core": "^7.21.4",
-    "@babel/eslint-parser": "^7.21.3",
     "@vue/cli-plugin-babel": "~5.0.8",
-    "@vue/cli-plugin-eslint": "~5.0.8",
     "@vue/cli-service": "~5.0.8",
-    "eslint": "^8.37.0",
-    "eslint-plugin-vue": "^9.10.0",
+    "biome": "^0.3.3",
     "gh-pages": "^5.0.0"
   },
   "eslintConfig": {
