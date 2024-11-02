@@ -6,7 +6,7 @@ import GlassCard from "@/components/molecules/GlassCard.vue";
   <GlassCard>
     <h1 class="text-2xl font-bold">History</h1>
     <ul class="list-disc ml-9">
-      <li>2022 - : Adways.inc</li>
+      <li>2023 - : Adways DEEE.inc</li>
       <li>
           2020 - 2023: Tokyo Institute of Technology, Dept. of
           Computer Science.<br />
