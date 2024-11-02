@@ -4,7 +4,7 @@ name: Main workflows
 on:
   push:
     branches:
-      - main
+      - feature/**
 
 jobs:
   setup:
