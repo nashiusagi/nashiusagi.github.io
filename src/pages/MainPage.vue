@@ -1,10 +1,9 @@
 <script setup>
-import GithubButton from "vue-github-button";
-import TwitterButton from "@/components/TwitterButton.vue";
 import GlassCard from "@/components/molecules/GlassCard.vue";
 import MainLayout from "@/layouts/MainLayout.vue";
 import ProfileCard from "@/components/organisms/ProfileCard.vue";
 import HistoryCard from "@/components/organisms/HistoryCard.vue";
+import SkillCard from "@/components/organisms/SkillCard.vue";
 </script>
 
 <template>
@@ -18,45 +17,8 @@ import HistoryCard from "@/components/organisms/HistoryCard.vue";
     <div class="text-gray-900 subpixel-antialiased">
       <ProfileCard />
       <HistoryCard />
-    
-      <GlassCard>
-        <h2 class="text-2xl font-bold">Programming Skills</h2>
-        <h3 class="text-xl font-bold">【★★★】 Love</h3>
-        <ul class="list-disc ml-12 mb-4">
-          <li>Python (LA)</li>
-          <li>Ubuntu (OS)</li>
-          <li>Vue3 (FW)</li>
-        </ul>
-        <h3 class="text-xl font-bold">【★★☆】 Daily</h3>
-        <ul class="list-disc ml-12 mb-4">
-          <li>Java (LA)</li>
-          <li>Scala (LA)</li>
-          <li>Playframework (FW)</li>
-          <li>PHP (LA)</li>
-          <li>JavaScript (LA)</li>
-          <li>TypeScript (LA)</li>
-          <li>Laravel (FW)</li>
-          <li>MacOS (OS)</li>
-          <li>Windows (OS)</li>
-        </ul>
-        <h3 class="text-xl font-bold">【★☆☆】Sometimes</h3>
-        <ul class="list-disc ml-12 mb-4">
-          <li>PyTorch (FW)</li>
-          <li>Tensorflow (FW)</li>
-          <li>React (FW)</li>
-          <li>C/C++ (LA)</li>
-          <li>GNU/Linux Debian (OS)</li>
-          <li>Shell Script (LA)</li>
-        </ul>
-        <h3 class="text-xl font-bold">【☆☆☆】Studying</h3>
-        <ul class="list-disc ml-12 mb-4">
-           <li>Vim Script (LA)</li>
-           <li>Rust (LA)</li>
-           <li>Golang (LA)</li>
-           <li>Ruby (LA)</li>
-           <li>actix-web (FW)</li>
-        </ul>
-      </GlassCard>
+      <SkillCard />
+      
     
       <GlassCard>
         <h2 class="text-2xl font-bold">Commitments</h2>
