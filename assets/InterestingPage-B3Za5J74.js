@@ -1,1 +1,0 @@
-import{c as e,o as a,w as s,M as o,a as n}from"./index-BPJn_h5z.js";const i={__name:"InterestingPage",setup(r){return(l,t)=>(a(),e(o,null,{default:s(()=>t[0]||(t[0]=[n("h1",{class:"text-4xl font-bold mb-6"},"My Interesting Topics",-1)])),_:1}))}};export{i as default};
