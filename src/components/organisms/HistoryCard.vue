@@ -8,13 +8,13 @@ import GlassCard from "@/components/molecules/GlassCard.vue";
     <ul class="list-disc ml-9">
       <li>2023 - : Adways DEEE.inc</li>
       <li>
-          2020 - 2023: Tokyo Institute of Technology, Dept. of
+          2021 - 2023: Tokyo Institute of Technology, Dept. of
           Computer Science.<br />
           Master of Engineering, Artificial Intelligence.<br />
           Saito Laboratory.
         </li>
         <li>
-          2016 - 2021 : Waseda University, School of Fundamental
+          2017 - 2021 : Waseda University, School of Fundamental
           Science and Engineering<br />
           Bachelor of Engineering, Computer Science and
           Engineering.<br />
