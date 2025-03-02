@@ -15,6 +15,7 @@ import WorkExperienceContainer from "@/components/organisms/history/WorkExperien
 import DarkModeTitle from "@/components/organisms/DarkModeTitle.vue";
 import AcademicContributionContainer from "@/components/organisms/contribution/AcademicContributionContainer.vue";
 import CarrierContributionContainer from "@/components/organisms/contribution/CarrierContributionContainer.vue";
+import SkillContainer from "@/components/organisms/skill/SkillContainer.vue";
 </script>
 
 <template>
@@ -42,7 +43,7 @@ import CarrierContributionContainer from "@/components/organisms/contribution/Ca
       <div :class="[$style.section, $style.section_black]">
         <div :class="$style.container">
           <DarkModeTitle :title="'PROGRAMMING SKILLS'" />
-          <p style="color: #fff">TBD</p>
+          <SkillContainer />
         </div>
       </div>
       <div :class="$style.section_black">
@@ -72,6 +73,6 @@ import CarrierContributionContainer from "@/components/organisms/contribution/Ca
 }
 
 .container {
-  padding: 8px;
+  padding: 16px 8px 8px 8px;
 }
 </style>
