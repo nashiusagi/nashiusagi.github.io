@@ -62,7 +62,6 @@ import SkillContainer from "@/components/organisms/skill/SkillContainer.vue";
 
 <style lang="css" module>
 .section {
-  height: 100vh;
   width: 100vw;
 }
 
