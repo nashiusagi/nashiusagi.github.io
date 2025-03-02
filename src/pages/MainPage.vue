@@ -53,6 +53,9 @@ import SkillContainer from "@/components/organisms/skill/SkillContainer.vue";
           <AcademicContributionContainer />
         </div>
       </div>
+      <div :class="$style.footer">
+        <p :class="$style.footer_text"> -- EOF --</p>
+      </div>
     </div>
   </MainLayout>
 </template>
@@ -74,5 +77,15 @@ import SkillContainer from "@/components/organisms/skill/SkillContainer.vue";
 
 .container {
   padding: 16px 8px 8px 8px;
+}
+
+.footer {
+  height: 64px;
+}
+
+.footer_text {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
 }
 </style>
