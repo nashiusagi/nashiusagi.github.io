@@ -1,10 +1,10 @@
 <template>
   <div :class="$style.img_container">
     <div>
-      <img :src="'./src/assets/nashiusagi.jpeg'" />
+      <img :src="'/nashiusagi.jpeg'" />
     </div>
     <div>
-      <img :src="'./src/assets/logo.png'" />
+      <img :src="'/logo.png'" />
     </div>
   </div>
 </template>

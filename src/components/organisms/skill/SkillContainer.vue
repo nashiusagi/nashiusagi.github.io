@@ -6,16 +6,16 @@
       </p>
       <div :class="$style.icons_box">
         <div>
-          <img :src="'./src/assets/python.jpeg'" />
+          <img :src="'/python.jpeg'" />
         </div>
         <div>
-          <img :src="'./src/assets/typescript.png'" />
+          <img :src="'/typescript.png'" />
         </div>
         <div>
-          <img :src="'./src/assets/vue.png'" />
+          <img :src="'/vue.png'" />
         </div>
         <div>
-          <img :src="'./src/assets/ubuntu.png'" />
+          <img :src="'/ubuntu.png'" />
         </div>
       </div>
     </div>
@@ -25,22 +25,22 @@
       </p>
       <div :class="$style.icons_box">
         <div>
-          <img :src="'./src/assets/java.png'" />
+          <img :src="'/java.png'" />
         </div>
         <div>
-          <img :src="'./src/assets/scala.png'" />
+          <img :src="'/scala.png'" />
         </div>
         <div>
-          <img :src="'./src/assets/golang.png'" />
+          <img :src="'/golang.png'" />
         </div>
         <div>
-          <img :src="'./src/assets/javascript.png'" />
+          <img :src="'/javascript.png'" />
         </div>
         <div>
-          <img :src="'./src/assets/macos.png'" />
+          <img :src="'/macos.png'" />
         </div>
         <div>
-          <img :src="'./src/assets/aws.png'" />
+          <img :src="'/aws.png'" />
         </div>
       </div>
     </div>
@@ -50,16 +50,16 @@
       </p>
       <div :class="$style.icons_box">
         <div>
-          <img :src="'./src/assets/perl.png'" />
+          <img :src="'/perl.png'" />
         </div>
         <div>
-          <img :src="'./src/assets/php.png'" />
+          <img :src="'/php.png'" />
         </div>
         <div>
-          <img :src="'./src/assets/cpp.png'" />
+          <img :src="'/cpp.png'" />
         </div>
         <div>
-          <img :src="'./src/assets/react.png'" />
+          <img :src="'/react.png'" />
         </div>
       </div>
     </div>
