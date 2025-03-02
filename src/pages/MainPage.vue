@@ -84,9 +84,11 @@ import SkillContainer from "@/components/organisms/skill/SkillContainer.vue";
 }
 
 .footer_text {
+  margin: 0;
   text-align: center;
   font-size: 20px;
   font-weight: bold;
   font-family: "Tilt Warp", serif;
+  padding: 22px 0;
 }
 </style>
