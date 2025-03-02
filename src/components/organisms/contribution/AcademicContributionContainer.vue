@@ -1,7 +1,5 @@
 <script setup lang="ts">
-import ContributionSectionTitle from '@/components/atoms/ContributionSectionTitle.vue';
-
-
+import ContributionSectionTitle from "@/components/atoms/ContributionSectionTitle.vue";
 </script>
 
 <template>
