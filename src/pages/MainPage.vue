@@ -12,13 +12,16 @@ import ProfileBodyContainer from "@/components/organisms/profile/ProfileBodyCont
 import WorkExperienceTimeline from "@/components/organisms/history/WorkExperienceTimeline.vue";
 import AcademicBackgroundContainer from "@/components/organisms/history/AcademicBackgroundContainer.vue";
 import WorkExperienceContainer from "@/components/organisms/history/WorkExperienceContainer.vue";
+import DarkModeTitle from "@/components/organisms/DarkModeTitle.vue";
+import AcademicContributionContainer from "@/components/organisms/contribution/AcademicContributionContainer.vue";
+import CarrierContributionContainer from "@/components/organisms/contribution/CarrierContributionContainer.vue";
 </script>
 
 <template>
   <MainLayout>
     <div>
       <div :class="$style.section">
-        <div>
+        <div :class="$style.title_container">
           <TitleBox />
           <MessageBox />
         </div>
@@ -36,11 +39,19 @@ import WorkExperienceContainer from "@/components/organisms/history/WorkExperien
           <AcademicBackgroundContainer />
         </div>
       </div>
-    </div>
-    <div class="text-gray-900 subpixel-antialiased">
-      <ProfileCard />
-      <SkillCard />
-      <CommitmentCard />
+      <div :class="[$style.section, $style.section_black]">
+        <div :class="$style.container">
+          <DarkModeTitle :title="'PROGRAMMING SKILLS'" />
+          <p style="color: #fff">TBD</p>
+        </div>
+      </div>
+      <div :class="$style.section_black">
+        <div :class="$style.container">
+          <DarkModeTitle :title="'CONTRIBUTIONS'" />
+          <CarrierContributionContainer />
+          <AcademicContributionContainer />
+        </div>
+      </div>
     </div>
   </MainLayout>
 </template>
@@ -48,6 +59,16 @@ import WorkExperienceContainer from "@/components/organisms/history/WorkExperien
 <style lang="css" module>
 .section {
   height: 100vh;
+  width: 100vw;
+}
+
+.title_container {
+  padding: 0 8px;
+  padding-top: 8px;
+}
+
+.section_black {
+  background-color: #000;
 }
 
 .container {
