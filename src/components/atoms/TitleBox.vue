@@ -1,7 +1,25 @@
 <template>
-    <div class="bg-white px-2 w-64">
-      <h1 class="text-4xl text-sky-400 font-bold mb-6">
+    <div :class="$style.title_container">
+      <p :class="$style.title">
         <a class="font-zenKurenaido" href="https://nashiusagi.github.io">NashiUsa Web</a>
-      </h1>
+      </p>
     </div>
 </template>
+
+<style lang="css" module>
+.title_container {
+  background-color: #000;
+  padding: 8px 24px;
+}
+
+.title {
+  font-size: 24px;
+  margin: 0;
+  font-family: 'Rammetto One', serif;
+
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+}
+</style>
