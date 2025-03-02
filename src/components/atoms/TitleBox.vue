@@ -10,12 +10,13 @@
 .title_container {
   background-color: #000;
   padding: 8px 24px;
+  width: 161px;
 }
 
 .title {
   font-size: 24px;
   margin: 0;
-  font-family: 'Rammetto One', serif;
+  font-family: "Tilt Warp", serif;
 
   a {
     text-decoration: none;

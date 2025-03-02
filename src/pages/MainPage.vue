@@ -87,5 +87,6 @@ import SkillContainer from "@/components/organisms/skill/SkillContainer.vue";
   text-align: center;
   font-size: 20px;
   font-weight: bold;
+  font-family: "Tilt Warp", serif;
 }
 </style>
